@@ -14,16 +14,28 @@ Android Survey core project for a primary design practice using Android Studio.
 
 2.The apk locate at :android-client/survey-master/app/build/outputs/apk/debug/app-debug.apk.
 
+3.Environment: android 6.0 to android 10.0
+
 #the gif
 
 <img src=android-client/gif/surveyshow.gif height=40% width=40%>
 
 #the list of the app's functions
 
-1.Scanning QR
+1.Scanning QR and get URL
 
-2.Read and store the content.
+2.Read and store the json content.
 
-3.Set the password and lock the screen
+3.Classify different types of questions
 
-4.Some limitations to prevent crash
+4.Set the password and lock the screen
+
+5.Some limitations to prevent crash
+
+
+#something need to be improved
+
+1.It should can switch to another language
+
+2.The scan window should be able to adapt to the phone
+
