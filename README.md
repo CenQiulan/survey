@@ -6,3 +6,8 @@ Android Survey core project for a primary design practice using Android Studio.
 王丹豪 email_address:wang904183923@163.com
 郭俊帅 email_address:conquerfate9@gmail.com
 岑秋兰 email_address:1303214164@qq.com
+
+
+#description
+
+![image](android-client/gif/surveyshow.gif)
