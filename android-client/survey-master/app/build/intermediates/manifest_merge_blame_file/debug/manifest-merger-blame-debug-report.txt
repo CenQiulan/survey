@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mg.studio.android.survey"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:6:5-75
+11-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:6:22-72
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:7:5-81
+12-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:8:5-79
+13-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:9:5-81
+14-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:10:5-80
+15-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+16-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:11:5-78
+16-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:11:22-75
+17    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+17-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:12:5-14:47
+17-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:13:9-68
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:15:5-67
+18-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:15:22-64
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:16:5-65
+19-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:16:22-62
+20
+21    <application
+21-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:18:5-47:19
+22        android:allowBackup="true"
+22-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:19:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] C:\Users\lenovo\.gradle\caches\transforms-2\files-2.1\65aa9efd5ac59e607457eb12354be1a7\core-1.1.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:20:9-43
+26        android:label="@string/app_name"
+26-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:21:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:22:9-54
+28        android:supportsRtl="true"
+28-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:23:9-35
+29        android:theme="@style/AppTheme"
+29-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:24:9-40
+30        android:usesCleartextTraffic="true" >
+30-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:25:9-44
+31        <activity android:name="mg.studio.android.survey.ScanActivity" />
+31-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:26:9-59
+31-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:26:19-47
+32
+33        <service
+33-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:28:9-31:39
+34            android:name="mg.studio.android.survey.PswdService"
+34-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:29:13-40
+35            android:enabled="true"
+35-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:30:13-35
+36            android:exported="true" />
+36-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:31:13-36
+37        <service
+37-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:32:9-35:39
+38            android:name="mg.studio.android.survey.LockService"
+38-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:33:13-40
+39            android:enabled="true"
+39-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:34:13-35
+40            android:exported="true" />
+40-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:35:13-36
+41
+42        <activity
+42-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:37:9-39:58
+43            android:name="mg.studio.android.survey.ReportActivity"
+43-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:38:13-43
+44            android:parentActivityName="mg.studio.android.survey.MainActivity" />
+44-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:39:13-55
+45        <activity android:name="mg.studio.android.survey.MainActivity" >
+45-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:40:9-46:20
+45-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:40:19-47
+46            <intent-filter>
+46-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:41:13-45:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:42:17-69
+47-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:42:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:44:17-77
+49-->D:\Program Files\Android\survey\android-client\survey-master\app\src\main\AndroidManifest.xml:44:27-74
+50            </intent-filter>
+51        </activity>
+52    </application>
+53
+54</manifest>

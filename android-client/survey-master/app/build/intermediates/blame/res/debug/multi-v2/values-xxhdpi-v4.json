@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Program Files\\Android\\survey\\android-client\\survey-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-2\\files-2.1\\724a53df1b7a2b59460017804f52f53b\\jetified-core-1.9.13\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,55",
+                        "endOffsets": "109,165"
+                    }
+                }
+            ]
+        }
+    ]
+}
