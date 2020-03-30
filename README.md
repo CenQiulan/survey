@@ -8,7 +8,7 @@ Android Survey core project for a primary design practice using Android Studio.
 岑秋兰 email_address:1303214164@qq.com
 
 
-#the description
+# the description
 
 1.This is a simple application that you can get a questionaire by scanning QR from the web server,answer the questions and store the data somewhere on your phone.On the web server, you need to open the server and type deepworm.xyz:8000 into the initial page to create survey question. 
 
@@ -16,11 +16,11 @@ Android Survey core project for a primary design practice using Android Studio.
 
 3.Environment: android 6.0 to android 10.0
 
-#the gif
+# the gif
 
 <img src=android-client/gif/surveyshow.gif height=40% width=40%>
 
-#the list of the app's functions
+# the list of the app's functions
 
 1.Scanning QR and get URL
 
@@ -33,7 +33,7 @@ Android Survey core project for a primary design practice using Android Studio.
 5.Some limitations to prevent crash
 
 
-#something need to be improved
+# something need to be improved
 
 1.It should can switch to another language
 
