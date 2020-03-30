@@ -10,4 +10,4 @@ Android Survey core project for a primary design practice using Android Studio.
 
 #description
 
-![image](android-client/gif/surveyshow.gif)
+![image width=50% height=50%](android-client/gif/surveyshow.gif)
